@@ -1,0 +1,223 @@
+<html>
+<head>
+    <title>Navigation Bar</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: left;
+            background: linear-gradient(to right, #CCFED8, #95BBFE);
+            padding: 10px 20px;
+        }
+
+        .logo {
+            /* Remove text content and add styles for the image container */
+        }
+
+        .logo img {
+            /* Style for the logo image */
+            max-height: 120px; /* Adjust the height as needed */
+            max-width: 100%; /* Ensure the image fits within the container */
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1px;
+            align-items: left;
+        }
+
+        .button {
+            background: transparent;
+            border: none;
+            padding: 5px; /* Adjust the padding for sizing */
+            cursor: pointer;
+        }
+
+        .button img {
+            max-width: 30%; /* Make the icon resizable */
+        }
+
+        .search-bar {
+            background-color: transparent; /* Set the background to transparent */
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; /* Move the search bar and icon to the right-most position */
+            border-radius: 5px;
+        }
+
+        .search-input {
+            border: none;
+            padding: 5px; /* Adjust the padding as needed */
+        }
+
+        .search-icon {
+            color: white; /* Text color for the search icon */
+            margin-right: 2px; /* Adjust the margin as needed */
+        }
+
+        .search-icon img {
+            width: 50px; /* Set the desired width */
+            height: 50px; /* Set the desired height */
+            margin-right: 5px; /* Adjust the margin as needed */
+        }
+
+        .header-section {
+            text-align: center; /* Center the header text */
+            padding: 20px; /* Add padding as needed */
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px; /* Add padding as needed */
+        }
+
+        .section-left,
+        .section-right {
+            flex: 1;
+            text-align: center;
+        }
+
+        .section-heading {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-subheading {
+            font-size: 18px;
+        }
+
+        .image-collage {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px; /* Add padding as needed */
+        }
+
+        .image-container {
+            flex: 1;
+            padding: 10px; /* Add padding around each image container */
+        }
+
+        .image-container img {
+            max-width: 100%; /* Images take up full width of the container */
+        }
+
+        .white-section {
+            background: white; /* Set background color to white */
+            text-align: center;
+            padding: 20px;
+        }
+
+        .white-section h2 {
+            font-size: 24px;
+        }
+		    
+		.four-image-section {
+			display: flex;
+			justify-content: space-between;
+			padding: 20px; /* Add padding as needed */
+		}
+
+		.left-image-container,
+		.right-image-container {
+			flex: 1;
+			text-align: center;
+		}
+
+		.left-image-container img,
+		.right-image-container img {
+			max-width: 100%;
+		}
+
+		.left-image-container p,
+		.right-image-container p {
+			font-size: 16px;
+			margin-top: 10px;
+		}
+		img{
+		width:280px}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="Capture-removebg-preview.png" alt="Logo">
+        </div>
+        <div class="buttons">
+            <button class="button"><img src="https://static.thenounproject.com/png/1710193-200.png" alt="Left Arrow"></button>
+            <button class="button"><img src="https://static.thenounproject.com/png/1711826-200.png" alt="Right Arrow"></button>
+            <button class="button"><img src="https://static.thenounproject.com/png/405847-200.png" alt="Refresh"></button>
+        </div>
+        <div class="search-bar">
+            <div class="search-icon">
+                <img src="https://static.thenounproject.com/png/6210206-200.png" alt="Search Icon"> <!-- Replace with your search icon image -->
+            </div>
+            <input type="text" class="search-input" placeholder="Search">
+        </div>
+    </div>
+    <div class="header-section">
+        <h1>TRENDING TEES</h1>
+    </div>
+    <div class="section">
+        <div class="section-left">
+            <h2>LOWER</h2>
+            <p>PANTS, SHORTS, TROUSERS</p>
+        </div>
+        <div class="section-right">
+            <h2>UPPER</h2>
+            <p>POLO, TSHIRT, JACKET</p>
+        </div>
+    </div>
+    <div class="image-collage">
+        <div class="image-container">
+            <img src="https://cdn.mall.adeptmind.ai/https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0485%2F1810%2F3193%2Fproducts%2F4550512626947_08_org_700x_ca3f4da3-14fa-4f3e-90e8-2b5f348da005.jpg%3Fv%3D1675992614_large.webp" alt="Image 1">
+            <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/455533/sub/goods_455533_sub14.jpg?width=750" alt="Image 2">
+            <img src="https://media.karousell.com/media/photos/products/2020/7/19/_uniqlo_men_relaxed_ankle_blac_1595121702_7dc2e9b6.jpg" alt="Image 3">
+        </div>
+        <div class="image-container">
+            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/444995/item/goods_01_444995.jpg?width=494" alt="Image 4">
+            <img src="https://ph-test-11.slatic.net/p/c0b0e69992604212c04fa65a88753175.jpg" alt="Image 5">
+            <img src="https://i.ebayimg.com/images/g/Dh0AAOSwd5di-7GZ/s-l1200.webp" alt="Image 6">
+        </div>
+    </div>
+	<div class="navbar">
+        <div class="logo">
+            <img src="Capture-removebg-preview.png" alt="Logo">
+        </div>
+        <div class="buttons">
+            <button class="button"><img src="https://static.thenounproject.com/png/1710193-200.png" alt="Left Arrow"></button>
+            <button class="button"><img src="https://static.thenounproject.com/png/1711826-200.png" alt="Right Arrow"></button>
+            <button class="button"><img src="https://static.thenounproject.com/png/405847-200.png" alt="Refresh"></button>
+        </div>
+        <div class="search-bar">
+            <div class="search-icon">
+                <img src="https://static.thenounproject.com/png/6210206-200.png" alt="Search Icon"> <!-- Replace with your search icon image -->
+            </div>
+            <input type="text" class="search-input" placeholder="Search">
+        </div>
+    </div>
+    <div class="white-section">
+        <h2>What style are you interested?</h2>
+    </div>
+	<div class="four-image-section">
+		<div class="left-image-container">
+			<img src="https://i.pinimg.com/564x/3e/86/77/3e86774308a427df01b9790351e9736f.jpg" alt="Image 1">
+			<p>CLASSIC<br>₱1000-₱6000<br>5 Stars rating</p>
+		</div>
+    <div class="left-image-container">
+        <img src="https://i.pinimg.com/564x/5d/7e/e9/5d7ee90073c68a68d2e7fe91700f7896.jpg" alt="Image 2">
+        <p>VINTAGE<br>₱500-₱5000<br>4 star rating</p>
+    </div>
+    <div class="right-image-container">
+        <img src="https://i.pinimg.com/564x/08/27/6e/08276edc72a696df4b02c004899452a6.jpg" alt="Image 3">
+        <p>SPORTSWEAR<br>₱300-₱3000<br>3 star rating</p>
+    </div>
+    <div class="right-image-container">
+        <img src="https://i.pinimg.com/736x/5f/59/24/5f59245a8d704f7e451cf78bc3c1d2d1.jpg" alt="Image 4">
+        <p>STREETWEAR<br>₱400-₱4000<br>4 star rating</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
